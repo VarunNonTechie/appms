@@ -1,0 +1,62 @@
+.measurement-capture {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.capture-methods {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.method-btn {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background: #f0f0f0;
+}
+
+.method-btn.active {
+  background: #007bff;
+  color: white;
+}
+
+.camera-capture {
+  position: relative;
+  width: 100%;
+  max-width: 640px;
+  margin: 0 auto;
+}
+
+.camera-preview {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.capture-btn {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 10px 20px;
+  background: #007bff;
+  color: white;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+}
+
+.image-upload .dropzone {
+  border: 2px dashed #ccc;
+  border-radius: 8px;
+  padding: 40px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.image-upload .dropzone.active {
+  border-color: #007bff;
+  background: #f8f9fa;
+} 
